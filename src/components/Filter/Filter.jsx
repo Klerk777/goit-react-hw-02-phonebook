@@ -9,7 +9,7 @@ const Filter = ({ value, onChangeFilter }) => {
       <input
         type="text"
         name="filter"
-        placeholder="add a filter to search contacts"
+        placeholder="add a filter to sort contacts"
         value={value}
         onChange={onChangeFilter}
       />
